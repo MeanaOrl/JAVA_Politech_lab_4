@@ -7,7 +7,7 @@ public class La8 {
         int a = s.nextInt();
         System.out.println(cnt);
         int b = s.nextInt();
-        if (a >= b) {
+        if (a > b) {
         }
         else {
             cnt++;
@@ -16,7 +16,7 @@ public class La8 {
         try {
             while (true) {
                 int c = s.nextInt();
-                if (b >= a & b >= c) {
+                if (b > a & b > c) {
                     cnt++;
                 }
                 System.out.println(cnt);
